@@ -7,11 +7,7 @@ export default function Selection(props) {
   let background = props.nextBackground;
 
   return (
-    <div
-      className="fix-box"
-      onClick={() => setStyle(applyColor())}
-      style={style}
-    >
+    <div className="fix-box" onClick={() => setStyle(applyColor)} style={style}>
       <h2 className="subheading">Selection</h2>
     </div>
   );
