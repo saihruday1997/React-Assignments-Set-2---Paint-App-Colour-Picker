@@ -9,10 +9,7 @@ export default function Selection(props) {
   return (
     <div
       className="fix-box"
-      onClick={() => {
-        applyColor();
-        setStyle(background);
-      }}
+      onClick={() => setStyle(applyColor())}
       style={style}
     >
       <h2 className="subheading">Selection</h2>
