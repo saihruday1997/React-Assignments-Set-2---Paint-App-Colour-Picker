@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
 export default function Selection(props) {
-  let { color } = props.applyColor;
-
   let [style, setStyle] = useState({ background: "" });
 
   return (
